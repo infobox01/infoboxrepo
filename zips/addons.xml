@@ -1,0 +1,31 @@
+<addons>
+<addon id="plugin.video.infobox"
+       name="[COLOR black][B]infobox[/B][/COLOR]"
+       version="3.0.0+matrix"
+       provider-name="infobox00">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">Addon exemplo para ajudar iniciantes criarem seu próprio addon para kodi. </summary>
+    <description lang="en">Addon exemplo - Crie seu próprio addon para kodi. </description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
+</addons>
