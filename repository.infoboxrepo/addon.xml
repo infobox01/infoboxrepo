@@ -2,9 +2,9 @@
 <addon id="repository.infoboxrepo" name="INFOBOXREPO" version="1.1" provider-name="infobox01">
     <extension point="xbmc.addon.repository" name="Nome Repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/infobox01/inforepomatrix01/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/infobox01/inforepomatrix01/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/infobox01/inforepomatrix01/NOME_DO_REPOSITORIO_AQUI/master/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/infobox01/infoboxrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/infobox01/infoboxrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/infobox01/infoboxrepo/NOME_DO_REPOSITORIO_AQUI/master/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
