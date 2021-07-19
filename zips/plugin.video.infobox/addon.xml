@@ -1,30 +1,38 @@
-<?xml version="3.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.infobox"
        name="[COLOR black][B]infobox[/B][/COLOR]"
-       version="3.0.0+matrix"
+       version="1.0"
        provider-name="infobox00">
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.simplejson"/>
-	<import addon="script.module.kodi-six" />
-</requires>  
-<extension point="xbmc.python.pluginsource" library="default.py">
-	<provides>video</provides>
-</extension>   
-<extension point="xbmc.addon.metadata">
-	 <summary lang="en">Addon exemplo para ajudar iniciantes criarem seu próprio addon para kodi. </summary>
-    <description lang="en">Addon exemplo - Crie seu próprio addon para kodi. </description>
-    <disclaimer lang="en"></disclaimer>
-	<platform>all</platform>
-	<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-<screenshot>resources/screenshots/home.png</screenshot>
-<screenshot>resources/screenshots/movies.png</screenshot>
-<screenshot>resources/screenshots/series.png</screenshot>
-</assets>
-	<news>news
-	</news>
-</extension>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+  	
+  <extension point="xbmc.addon.metadata">
+    <summary>version-18-infobox</summary>
+    <description>
+[B][COLOR red]INFOBOX[/COLOR][/B]-[B]é apenas um [/B][B][COLOR yellow]AGREGADOR[/COLOR][/B]
+[B]de links retirados da internet[/B].
+[B][COLOR red] *NÃO*[/COLOR][/B] [B]fazemos parte de nenhuma organização ou cobramos pelos conteúdos expostos no mesmo.[/B]         
+    </description>
+	<disclaimer>[B]OBRIGADO POR USAR NOSSO ADD-ON [COLOR gold]INFOBOX[/COLOR][/B]</disclaimer>
+	<news>[B][COLOR gold]ATUALIZADO 19/07/2021[/COLOR][/B]</news>
+    <platform>all</platform>
+  </extension>
 </addon>
