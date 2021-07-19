@@ -1,0 +1,35 @@
+<?xml version="3.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.infoboxMATRIX"
+       name="[COLOR black][B]infobox[/B][/COLOR]"
+       version="3.0.0+matrix"
+       provider-name="infobox00">
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary>version19-infobox</summary>
+    <description>
+[B][COLOR red]INFOBOX[/COLOR][/B]-[B]é apenas um [/B][B][COLOR yellow]AGREGADOR[/COLOR][/B]
+[B]de links retirados da internet[/B].
+[B][COLOR red] *NÃO*[/COLOR][/B] [B]fazemos parte de nenhuma organização ou cobramos pelos conteúdos expostos no mesmo.[/B]         
+    </description>
+	<disclaimer>[B]OBRIGADO POR USAR NOSSO ADD-ON [COLOR gold]INFOBOX[/COLOR][/B]</disclaimer>
+	<news>[B][COLOR gold]ATUALIZADO 19/07/2021[/COLOR][/B]</news>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
